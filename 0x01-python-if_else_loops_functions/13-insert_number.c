@@ -1,4 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
+
 /**
  * insert_node - Inserts a node in an ordered list
  * @head: A pointer to a pointer to the first node of listint_t list
