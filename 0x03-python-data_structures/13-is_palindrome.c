@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stddef.h>
 /**
  * palindrome - check if the palindrome is with recursion
  * @l: l
