@@ -5,11 +5,9 @@ class Square:
     Define a square.
     """
 
-    def __init__(self, size):
-        """
-        Initialize a new square.
 
-        Args:
-            size (int): The size of the square.
-        """
+class Square:
+    """A Class that defines a square by size(private attribute)"""
+    def __init__(self, size=0):
+        """Initialization of the class with the size parameter."""
         self.__size = size
