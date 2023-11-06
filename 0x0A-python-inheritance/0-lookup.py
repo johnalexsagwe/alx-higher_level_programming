@@ -10,9 +10,4 @@ def lookup(obj):
     Returns:
         list of strings with  names of all available attributes and methods.
     """
-
-    attrs = []
-    for name in dir(obj):
-        if not name.startswith('__'):
-            attrs.append(name)
-    return attrs
+    return (dir(obj))
