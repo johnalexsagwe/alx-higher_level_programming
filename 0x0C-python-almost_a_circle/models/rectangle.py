@@ -57,7 +57,7 @@ class Rectangle(Base):
             raise ValueError("width must be > 0")
         self.__width = value
 
-        @property
+    @property
     def height(self):
         """Get the height of the rectangle."""
         return self.__height
@@ -133,10 +133,10 @@ class Rectangle(Base):
             print("")
             return
 
-        [print("") for y in range(self.y)]
-        for row in range(self.height):
-            [print(" ", end="") for x in range(self.x)]
-            [print("#", end="") for h in range(self.width)]
+        [print("") for _ in range(self.y)]
+        for _ in range(self.height):
+            [print(" ", end="") for _ in range(self.x)]
+            [print("#", end="") for _ in range(self.width)]
             print("")
 
     def __str__(self):
